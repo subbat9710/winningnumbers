@@ -9,5 +9,8 @@ class TestSubtractNumber < Minitest::Test
 	end
     def test_5_multiply_3_gives_15
     assert_equal(15,my_multiplication(5, 3))
-   end
+    end
+    def test_10_multiply_4_multiply_2_gives_80
+    assert_equal(80,my_multiplication(10, 4, 2))   
+    end
 end    
