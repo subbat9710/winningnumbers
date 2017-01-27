@@ -1,5 +1,4 @@
 def win_number(lottery,num)
-
     
     	winner = 0
 
@@ -14,5 +13,3 @@ def win_number(lottery,num)
         return false
     end
 end
-
-puts win_number
