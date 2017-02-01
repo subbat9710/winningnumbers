@@ -1,8 +1,4 @@
 def participant_number_include?(participant_number,winning_numbers)
-	#def participant_number_include?(participant_number,winning_numbers)
-	#winning_numbers.include?(participant_number)
-#end
-#def participant_number_include?(participant_number,winning_numbers)
 	winning_numbers.include?(participant_number)
 	winner = false
 
